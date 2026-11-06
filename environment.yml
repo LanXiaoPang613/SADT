@@ -1,0 +1,16 @@
+name: sadt
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.10.13
+  - pip=24.2
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu118
+      - torch==2.1.1+cu118
+      - torchvision==0.16.1+cu118
+      - numpy==1.26.2
+      - Pillow==10.1.0
+      - tqdm==4.66.1
+      - tensorboard==2.10.0
