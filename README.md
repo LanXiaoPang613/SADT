@@ -78,3 +78,8 @@ python main.py --dataset cifar10 --root DATA_ROOT --noise-type dependent --noise
 python main.py --dataset cifar100 --root DATA_ROOT --noise-type dependent --noise-rate 0.4 --seed 123 --gpu 0 --tag c100_dep04_s123
 ```
 
+## Acknowledgements
+
+The implementation builds on the released code for NNCE, *Active Negative Loss Functions For Learning-With-Noisy Labels*[(https://github.com/PURPLEWATER00/RE-Active-Negative-Loss-Functions-For-Learning-With-Noisy-Labels)]; VBL, *Variation-Bounded Loss for Noise-Tolerant Learning*[(https://github.com/cswjl/variation-bounded-loss)]. Please cite the corresponding papers and
+repositories together with the our proposed SADT "Surprise annealed dual tail loss for robust noisy labels learning" when using this code.
+
